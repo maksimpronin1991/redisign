@@ -1,0 +1,84 @@
+.additional-section {
+    padding-top: 110px;
+}
+
+.additional-block {
+    max-height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.additional-title {
+    font-size: 48px;
+    max-width: 647px;
+    text-align: center;
+}
+
+.additional-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.additional-card {
+    width: 650px;
+    height: 250px;
+    border-radius: 40px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.additional-card_text {
+    position: relative;
+    width: 556px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.additional-card_text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -90px;
+    width: 48px;
+    height: 48px;
+    background-image: url('../img/Star\ 2.png');
+    background-size: cover;
+}
+
+.additional-price {
+    font-size: 24px;
+}
+
+.text-gradient {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: linear-gradient(90deg, #FF6600 0%, #F26659 27.4%, #F06177 37.4%, #E65D97 48.4%, #CA46D2 71.4%, #8D13F9 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 12px;
+}
+
+.button {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

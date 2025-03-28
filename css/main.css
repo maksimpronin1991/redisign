@@ -1,0 +1,42 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./top-block.css";
+@import "./advantages.css";
+@import "./buttons.css";
+@import "./prices.css";
+@import "./additional.css";
+@import "./clients.css";
+@import "./review.css";
+@import "./promo1.css";
+@import "./promo2.css";
+
+body {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-family: Montserrat;
+    font-weight: 700; 
+    line-height: 52px;
+    letter-spacing: 0%;
+    color: #2D2D2D;
+}
+
+h1{
+    line-height: 80px;
+}
+
+
+.container {
+    max-width: 1780px;
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.yellow-text {
+    color: #ff6600
+}
+
+
+

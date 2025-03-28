@@ -1,0 +1,164 @@
+.prices-section {
+    padding-top: 120px;
+}
+
+.prices-block {
+    max-height: 1075px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices-title {
+    max-width: 784px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.prices-text {
+    max-width: 1086px;
+    font-size: 32px;
+    text-align: center;
+    color: #808080;
+    padding-top: 20px;
+}
+
+.prices-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.prices-card {
+    width: 500px;
+    height: 733px;
+    border-radius: 30px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.prices-card:nth-child(2) {
+    background-color: #2D2D2D;
+}
+
+.prices-card_title {
+    position: relative;
+    width: fit-content;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 1px solid #2D2D2D;
+    border-radius: 20px;
+    font-size: 32px;
+}
+
+
+.prices-card:nth-child(2) .prices-card_title{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF
+}
+
+.prices-card_title::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -80px;
+    width: 56px;
+    height: 56px;
+    background-image: url('../img/black-star.png');
+    background-size: cover;
+}
+
+.prices-card:nth-child(2) .prices-card_title::after {
+    background-image: url('../img/white-star.png');
+}
+
+.prices-card_top-text {
+    width: 443px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 30px;
+}
+
+.prices-card:nth-child(2) .prices-card_top-text{
+    color: #FFFFFF
+}
+
+.prices-card_info {
+    width: 424px;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #808080;
+
+}
+
+.prices-card_benefits {
+    padding-top: 10px;
+}
+
+
+
+
+.prices-card_benefit {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    padding-top: 20px;  
+}
+
+
+.prices-card_benefit-img {
+    width: 24px;
+    height: 16px;
+    border-width: 4px;
+    background-image: url("../img/check-mark.png");
+    background-size: cover;
+    background-size: 24px 16px;
+    margin-right: 16px;
+}
+
+.prices-card_benefit-text {
+    max-width: 384px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #2D2D2D;
+}
+
+.prices-card:nth-child(2) .prices-card_benefit:nth-child(2) .prices-card_benefit-text,
+.prices-card_benefit:nth-child(2) .prices-card_benefit-text {
+    font-weight: bold;
+}
+
+
+
+.prices-card:nth-child(2) .prices-card_benefit-text{
+    color: #FFFFFF
+}
+
+.prices-card:nth-child(2) .prices-card_benefit-img {
+    width: 24px;
+    height: 16px;
+    border-width: 4px;
+    background-image: url("../img/check-mark-white.png");
+    background-size: cover;
+    background-size: 24px 16px;
+    margin-right: 16px;
+}
+
+.prices-button-container {
+    margin-top: auto; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+}
+

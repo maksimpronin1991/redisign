@@ -1,0 +1,62 @@
+.promo1-section {
+    padding-top: 120px;
+}
+
+
+.promo1-block {
+    height: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    gap: 60px;
+}
+
+.promo1-img {
+    width: 677px;
+    height: 442px;
+}
+
+.promo1-info {
+    position: relative;
+    max-width: 729px;
+    text-align: left;
+}
+
+
+.promo1-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -810px;
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/Star\ 1.png');
+    background-size: cover;
+}
+
+.promo1-info::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -150px;
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/Star\ 1.png');
+    background-size: cover;
+}
+
+
+.promo1-title {
+    font-size: 48px;
+}
+
+.promo1-text {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.text-step {
+    padding-top: 20px;
+}
+

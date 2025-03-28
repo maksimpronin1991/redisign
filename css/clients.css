@@ -1,0 +1,46 @@
+.clients-section {
+    padding-top: 120px;
+}
+
+.clients-block {
+    max-height: 442px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-title {
+    max-width: 1024px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.clients-text {
+    max-width: 637px;
+    font-size: 32px;
+    text-align: center;
+    color: #808080;
+    padding-top: 20px;
+}
+
+.clients-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.clients-logo {
+    width: 430px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+}
+
+.clients-logo img {
+    margin: 0 auto;
+}
